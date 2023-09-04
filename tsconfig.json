@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true
+    // "lib": [
+    //   "DOM",
+    //   "DOM.Iterable",
+    //   "ES5",
+    //   "ES6"
+    // ]
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

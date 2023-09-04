@@ -1,0 +1,106 @@
+import {Dimensions, StyleSheet} from 'react-native';
+import {Colors} from '../../../../../../constants/color.const';
+
+const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    alignItems: 'center',
+    backgroundColor: Colors.background.white,
+    width: Dimensions.get('window').width,
+    minHeight: Dimensions.get('window').height,
+  },
+  title: {
+    width: '90%',
+    textAlign: 'left',
+    textAlignVertical: 'center',
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: Colors.title.orange,
+    marginTop: 10,
+  },
+  inputContainer: {
+    width: '90%',
+    height: 50,
+    flexDirection: 'row',
+    alignItems: 'center',
+    // paddingHorizontal: 15,
+    marginBottom: 5,
+    borderColor: Colors.border.lightgrey,
+    borderBottomWidth: 1,
+    // borderRadius: 10,
+  },
+  inputIcon: {
+    fontWeight: '200',
+    color: Colors.icon.lightgrey,
+    fontSize: 20,
+  },
+  inputText: {flex: 1, color: Colors.text.grey},
+  error: {
+    width: '90%',
+    color: Colors.text.red,
+    textAlign: 'left',
+    marginBottom: 10,
+  },
+  addButton: {
+    width: '90%',
+    backgroundColor: Colors.buttonBackground.white,
+    borderWidth: 1,
+    borderColor: Colors.border.orange,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 10,
+    marginBottom: 20,
+    padding: 10,
+  },
+  addButtonText: {
+    color: Colors.buttonText.orange,
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  removeIcon: {
+    fontWeight: '200',
+    color: 'red',
+    fontSize: 24,
+  },
+  radioButtonContainer: {
+    width: '90%',
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: 10,
+    marginVertical: 10,
+  },
+  todosContainer: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: Colors.itemBackground.lightorange,
+    padding: 10,
+    borderRadius: 10,
+  },
+  todoContainer: {
+    width: '80%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+  },
+  createButton: {
+    borderRadius: 10,
+    width: '90%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 20,
+  },
+  createButtonText: {
+    color: Colors.buttonText.white,
+    fontSize: 16,
+    fontWeight: 'bold',
+    padding: 10,
+  },
+});
+
+export default styles;

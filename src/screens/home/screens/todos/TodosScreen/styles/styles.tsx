@@ -1,0 +1,125 @@
+import {Dimensions, StyleSheet} from 'react-native';
+
+import {Colors} from '../../../../../../constants/color.const';
+
+const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    alignItems: 'center',
+    backgroundColor: Colors.background.white,
+    width: Dimensions.get('window').width,
+    minHeight: Dimensions.get('window').height,
+  },
+  titleContainer: {
+    width: '90%',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+  },
+  title: {
+    width: '90%',
+    textAlign: 'left',
+    textAlignVertical: 'center',
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: Colors.title.orange,
+    marginTop: 10,
+  },
+  inputContainer: {
+    width: '90%',
+    height: 50,
+    flexDirection: 'row',
+    alignItems: 'center',
+    // paddingHorizontal: 15,
+    marginBottom: 5,
+    borderColor: Colors.border.lightgrey,
+    borderBottomWidth: 1,
+    // borderRadius: 10,
+  },
+  inputIcon: {
+    fontWeight: '200',
+    color: Colors.icon.lightgrey,
+    fontSize: 20,
+  },
+  inputText: {flex: 1, color: Colors.text.grey},
+  error: {
+    width: '90%',
+    color: Colors.text.red,
+    textAlign: 'left',
+    marginBottom: 10,
+  },
+  removeIcon: {
+    fontWeight: '200',
+    color: Colors.icon.red,
+    fontSize: 24,
+  },
+  radioButtonContainer: {
+    width: '90%',
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: 10,
+    marginVertical: 10,
+  },
+  checkBoxContainer: {
+    width: '90%',
+    display: 'flex',
+    gap: 10,
+    marginTop: 10,
+  },
+  todosContainer: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: Colors.itemBackground.lightorange,
+    padding: 10,
+    borderRadius: 10,
+  },
+  todo: {
+    width: '90%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+  },
+  modalContentContainer: {
+    display: 'flex',
+    backgroundColor: 'white',
+    borderRadius: 10,
+    gap: 10,
+    padding: 20,
+  },
+  modalTextContainer: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    flexDirection: 'row',
+    gap: 30,
+  },
+  modalTitle: {
+    fontSize: 18,
+    textAlign: 'left',
+    color: Colors.text.grey,
+  },
+  deleteButton: {
+    width: '90%',
+    // height: 40,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 10,
+    backgroundColor: Colors.buttonBackground.red,
+    borderRadius: 10,
+    marginVertical: 20,
+  },
+  deleteButtonText: {
+    color: Colors.text.white,
+    fontWeight: 'bold',
+    fontSize: 18,
+  },
+});
+
+export default styles;

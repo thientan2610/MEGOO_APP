@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "768201973051",
+    "project_id": "nyp19vp",
+    "storage_bucket": "nyp19vp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768201973051:android:223c8b52e53fe9561d2b1e",
+        "android_client_info": {
+          "package_name": "com.megoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768201973051-odueei4k04bc0kqb7bp7uo3hbqrhutco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.megoo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "768201973051-b9supnlu237m58th9c3du0qpp3m13cgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRZUi7u9rvNwUvy7TiUEQjqY_-KBJnPyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768201973051-b9supnlu237m58th9c3du0qpp3m13cgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

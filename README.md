@@ -1,1 +1,1 @@
-# MEGOO_APP
+# megoo-app
